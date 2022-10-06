@@ -96,6 +96,7 @@ public final class ScannerViewController: UIViewController {
         navigationController?.navigationBar.barStyle = .blackTranslucent
         navigationController?.navigationBar.tintColor = .white
         navigationController?.navigationBar.backgroundColor = .black
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.white]
         
     }
     
